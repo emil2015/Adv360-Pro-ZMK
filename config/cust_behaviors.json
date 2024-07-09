@@ -1,1 +1,34 @@
-[]
+[
+	{
+		"code": "&hm",
+		"name": "&hm",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm LSHIFT &hm f",
+		"name": "&hm LSHIFT &hm f",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm LSHIFT f",
+		"name": "&hm LSHIFT f",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm RIGHT_SHIFT f",
+		"name": "&hm RIGHT_SHIFT f",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
