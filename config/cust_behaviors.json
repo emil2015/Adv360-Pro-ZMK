@@ -30,5 +30,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&hm LSHIFT BSPC",
+		"name": "&hm LSHIFT BSPC",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm RIGHT_SHIFT SPACE",
+		"name": "&hm RIGHT_SHIFT SPACE",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
