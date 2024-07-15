@@ -46,5 +46,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&hm LSHIFT DEL",
+		"name": "&hm LSHIFT DEL",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm RIGHT_SHIFT ENTER",
+		"name": "&hm RIGHT_SHIFT ENTER",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
