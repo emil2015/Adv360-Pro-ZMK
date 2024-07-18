@@ -18,6 +18,14 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define COMBO(NAME, BINDINGS, KEYPOS) \
+  combo_##NAME { \
+    timeout-ms = <50>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    layers = <0>; \
+  };
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -33,6 +41,14 @@
         bindings = <&kp>, <&kp>;
     };
   };
+
+combos {
+compatible = "zmk,combos";
+COMBO(LEFT_SHIFT, &kp LEFT_SHIFT 32 33)
+COMBO(RIGHT_SHIFT, &kp RIGHT_SHIFT 38 39)
+};
+
+
 
     keymap {
         compatible = "zmk,keymap";
