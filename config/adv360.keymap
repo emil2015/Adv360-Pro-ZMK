@@ -45,7 +45,7 @@
 combos {
 compatible = "zmk,combos";
 COMBO(LEFT_SHIFT, &kp LEFT_SHIFT, 31 32)
-COMBO(RIGHT_SHIFT, &kp RIGHT_SHIFT, 37 38)
+COMBO(RIGHT_SHIFT, &kp RIGHT_SHIFT, 41 42)
 };
 
     keymap {
