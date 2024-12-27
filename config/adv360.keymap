@@ -39,7 +39,7 @@
         quick_tap_ms = <300>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
-        require-prior-idle-mas = <100>;
+        require-prior-idle-ms = <100>;
         hold-trigger-on-release;
     };
   };
