@@ -54,7 +54,8 @@ COMBO(ret,   &kp RETURN,    17 18)
 /*COMBO(mouse, &smart_mouse,  LT3 LT1)*/
 
 COMBO(tab,   &kp TAB,       30 31)
-COMBO(repeat, &kp C_AC_REDO,    31 32)
+// COMBO(repeat, &kp C_AC_REDO,    31 32)
+COMBO(colin, &kp COLON,    31 32)
 
 /*COMBO(cut,   &kp LC(X),     LB3 LB1)*/
 COMBO(copy,  &kp LC(INS),   48 49)
